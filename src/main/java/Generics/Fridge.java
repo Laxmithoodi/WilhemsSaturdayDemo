@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class Fridge {
 
-    Storage<Edible> storage;
+    private Storage<Edible> storage;
 
     public Edible getItem(String type) {
         LinkedList<Edible> retrievedItems = new LinkedList<Edible>();

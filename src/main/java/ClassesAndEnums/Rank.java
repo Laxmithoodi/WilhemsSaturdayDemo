@@ -17,7 +17,7 @@ public enum Rank {
 
 
     // enums already have toString() over-ridden so that the values converted to string will result from calling
-    //    method. you can, however, override this further (e.g. if you want the characters to be in lower case)
+    // the method. you can, however, override this further (e.g. if you want the characters to be in lower case)
     @Override
     public String toString() {
         return this.name().toLowerCase();
